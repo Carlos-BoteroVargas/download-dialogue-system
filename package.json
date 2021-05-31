@@ -1,15 +1,21 @@
 {
   "name": "download-dialogue-system",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "private": true,
+  "description": "Created a dialogue system to show progress bar when the user clicks a 'download' button",
+  "author": "Carlos Botero-Vargas",
+  "license": "MIT",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "axios": "^0.21.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
+    "react-fontawesome": "^1.7.1",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
