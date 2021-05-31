@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./index.css";
+import "../../styles/downloader.css";
 import { ProgressBar } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Axios from "axios";
@@ -14,7 +14,7 @@ const Downloader = ({ files = [], remove }) => {
             <DownloadItem
               key={idx}
               removeFile={() => remove(file.downloadId)}
-              {...file}
+              {...file} 
             />
           ))}
         </ul>

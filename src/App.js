@@ -1,9 +1,9 @@
 import './App.css';
-import FileDownloader from "pages/FileDownloader/index";
+import FileDownloader from "components/FileDownloader";
 
 function App() {
     return (
-        <FileDownloader />
+        <FileDownloader /> 
     );
 }
 

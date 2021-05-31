@@ -1,9 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-// import Header from "components/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useFileDownloader from "hooks/useFileDownloader";
-// import ExternalInfo from "components/ExternalInfo";
 
 // file:
 //       "https://images.unsplash.com/photo-1604164388977-1b6250ef26f3?rnd=" +

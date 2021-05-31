@@ -1,6 +1,6 @@
 import React from "react";
 
-const FileDownloader = React.lazy(() => import("pages/FileDownloader"));
+const FileDownloader = React.lazy(() => import("components/FileDownloader"));
 
 const routes = [
   {
